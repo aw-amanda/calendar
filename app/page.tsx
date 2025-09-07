@@ -7,9 +7,10 @@ import { ModeToggle } from "@/components/ui/mode-toggle"
 export default function Home() {
   
   return (
-    <div className="min-h-screen p-1">
+    <div className="min-h-screen">
       <main className="flex flex-col items-center justify-center">
-        <div className="sticky top-2 px-2 flex flex-row items-center justify-between gap-5">
+        <div className="sticky w-full top-0 px-2 py-1 flex flex-row items-center justify-between gap-5
+                        bg-gray-300/30 backdrop-blur-md border-none rounded-b-md z-999">
           <ModeToggle />
           <h1>Calendar</h1>
           <Button>+</Button>
